@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+}
+
+
+html{
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+}
+.reveal{
+    background-image: linear-gradient(to right, #B984FF, #E36A6A);
+}
+svg{
+    height: 900px;
+    width: 900px;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+#image1{
+    margin-top: -160px;
+
+}
+.paragraphs{
+    text-align: right;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.hobbies{
+   margin-top: -150px;
+   margin-left: -120px;
+}
+.myskills{
+    width: 400px;
+    margin: 10px auto;
+    color: white;
+}
+.myskills li {
+    font-size: 10px;
+}
+.myskills li h3{
+    margin: 10px 0;
+}
+.myskills h2{
+    margin: 30px 0;
+    font-size: 2px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.bar span{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+.html{
+    width: 70%;
+    animation: html 2s;
+}
+.css{
+    width: 70%;
+    animation: css 2s;
+}
+.javascript{
+    width: 40%;
+    animation: javascript 2s;
+}
+.adobexd{
+    width: 90%;
+    animation: adobexd 2s;
+}
+.photoshop{
+    width: 60%;
+    animation: photoshop 2s;
+}
+.illustrator{
+    width: 60%;
+    animation: illustrator 2s;
+}
+.bootstrap{
+    width: 40%;
+    animation: bootstrap 2s;
+}
+.Blender{
+    width: 40%;
+    animation: blender 2s;
+}
+.python{
+    width: 40%;
+    animation: python 2s;
+}
+.unique{
+    font-size: 20px;
+    padding: 10 10 10 10px;
+    font-family: "https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet";
+    
+}
+
+#img2{
+    height: 400px;
+    width: 600px;
+}
+.fiveyrs{
+    font-size: 20px;
+    padding: 10 10 10 10px;
+    font-family: "https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet";
+    font-size: 19px;
+    text-emphasis: none;
+}
+.fiveyrs p{
+    font-size: 20px;
+    font-family: "https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet";
+    padding-top: 80px;
+    font-weight: lighter;
+}
+.fiveyrs #header1{
+    font-size: 30px;
+    font-family: "https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet";
+    
+}
+#img3{
+    float: right;
+    height: 400px;
+    width: 700px;
+    margin-right: -150px;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes adobexd{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes photoshop{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes illustrator{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes blender{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
